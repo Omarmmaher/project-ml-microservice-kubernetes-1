@@ -24,9 +24,7 @@ install-minikube:
 
 install-all: install install-hadolint
 
-test-junit:
-	# Generate test results for circleci
-	python3 -m pytest -vv app.py --junitxml=~/test-results/junit.xml
+
 
 test:
 	# Additional, optional, tests could go here
