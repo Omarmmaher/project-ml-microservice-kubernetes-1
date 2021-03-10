@@ -34,11 +34,7 @@ jobs:
                   command: |
                       source ~/.devops/bin/activate
                       make lint
-            - run:
-                  name: Run Tests
-                  command: |
-                      source ~/.devops/bin/activate
-                      make test-junit
+     
             - store_test_results:
                   path: ~/test-results
 
