@@ -1,4 +1,5 @@
 
+[![CircleCI](https://circleci.com/gh/circleci/project-ml-microservice-kubernetes.svg?style=svg&circle-token=<YOUR_STATUS_API_TOKEN>)](https://app.circleci.com/pipelines/github/ahmedadell94/project-ml-microservice-kubernetes?branch=main)
 
 ## Project Overview
 
